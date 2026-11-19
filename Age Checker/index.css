@@ -1,0 +1,66 @@
+body {
+	background: url(newimg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+div.all {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 16px;
+	width: 80vh;
+	height: auto;
+	font-family: Arial;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	gap: 10px;
+}
+button.but {
+	background-color: blueviolet;
+	border: none;
+	font-size: 18px;
+	border-radius: 18px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: white;
+}
+button.but:hover {
+	opacity: 0.9;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	padding-left: 102px;
+	padding-right: 102px;
+}
+button.but:active {
+	opacity: 0.6;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 101px;
+	padding-right: 101px;
+}
+input.ent {
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	font-size: 15px;
+}
+input.ent:hover {
+	font-size: 19px;
+}
+input.ent:focus {
+	font-size: 19px;
+	border-color: lightblue;
+	outline: none;
+} 
+p.outed {
+	color: green;
+	font-size: 22px;
+
+}
